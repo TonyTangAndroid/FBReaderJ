@@ -3,6 +3,7 @@
 .idea
 build/
 gradle/
+bin/
 .gradle/
 /*/build/
 /*/bin/
