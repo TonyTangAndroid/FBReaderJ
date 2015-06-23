@@ -19,16 +19,20 @@
 
 package org.geometerplus.zlibrary.ui.android.view;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ExecutorService;
-
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.*;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.view.*;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.ViewConfiguration;
 import android.widget.TextView;
 
+import org.geometerplus.android.fbreader.FBReader;
+import org.geometerplus.fbreader.fbreader.options.PageTurningOptions;
 import org.geometerplus.zlibrary.core.application.ZLApplication;
 import org.geometerplus.zlibrary.core.application.ZLKeyBindings;
 import org.geometerplus.zlibrary.core.options.Config;
@@ -36,13 +40,17 @@ import org.geometerplus.zlibrary.core.options.ZLIntegerOption;
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 import org.geometerplus.zlibrary.core.view.ZLView;
 import org.geometerplus.zlibrary.core.view.ZLViewWidget;
-
-import org.geometerplus.zlibrary.ui.android.R;
 import org.geometerplus.zlibrary.ui.android.library.ZLAndroidLibrary;
-import org.geometerplus.zlibrary.ui.android.view.animation.*;
+import org.geometerplus.zlibrary.ui.android.view.animation.AnimationProvider;
+import org.geometerplus.zlibrary.ui.android.view.animation.CurlAnimationProvider;
+import org.geometerplus.zlibrary.ui.android.view.animation.NoneAnimationProvider;
+import org.geometerplus.zlibrary.ui.android.view.animation.ShiftAnimationProvider;
+import org.geometerplus.zlibrary.ui.android.view.animation.SlideAnimationProvider;
+import org.geometerplus.zlibrary.ui.android.view.animation.SlideOldStyleAnimationProvider;
+import org.geometerplus.zlibrary.ui.android.R;
 
-import org.geometerplus.fbreader.fbreader.options.PageTurningOptions;
-import org.geometerplus.android.fbreader.FBReader;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongClickListener {
 	public final ExecutorService PrepareService = Executors.newSingleThreadExecutor();

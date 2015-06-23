@@ -22,7 +22,7 @@
     <application
         android:name="org.geometerplus.android.fbreader.FBReaderApplication"
         android:icon="@drawable/fbreader"
-        android:label="FBReader"
+        android:label="@string/app_name"
         android:logo="@drawable/fbreader_logo">
         <activity
             android:name="org.geometerplus.android.fbreader.error.BookReadingErrorActivity"
@@ -38,7 +38,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".error.BugReportActivity"
+            android:name="org.geometerplus.zlibrary.ui.android.error.BugReportActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:label="FBReader crash"
@@ -94,7 +94,7 @@
             android:name="org.geometerplus.android.fbreader.FBReader"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:icon="@drawable/fbreader"
-            android:label="FBReader"
+            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:theme="@style/FBReader.Activity">
             <intent-filter>

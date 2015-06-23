@@ -20,9 +20,6 @@
 
 package com.paragon.dictionary.fbreader;
 
-import java.io.FileOutputStream;
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
@@ -32,12 +29,19 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.WebView;
-import android.widget.*;
+import android.widget.ImageButton;
+import android.widget.TableRow;
+import android.widget.TextView;
 
-import com.paragon.open.dictionary.api.*;
+import com.paragon.open.dictionary.api.Dictionary;
+import com.paragon.open.dictionary.api.TranslateFormat;
+import com.paragon.open.dictionary.api.TranslateMode;
 
 import org.geometerplus.zlibrary.core.util.MiscUtil;
 import org.geometerplus.zlibrary.ui.android.R;
+
+import java.io.FileOutputStream;
+import java.util.ArrayList;
 
 public class OpenDictionaryActivity extends Activity {
 	public final static String OPEN_DICTIONARY_QUERY_KEY = "open_dictionary_query";
