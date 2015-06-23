@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="read_book">Call FBReader Plugin to read books</string>
+    <string name="action_settings">Settings</string>
+</resources>

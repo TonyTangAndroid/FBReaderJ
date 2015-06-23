@@ -19,20 +19,18 @@
 
 package org.geometerplus.zlibrary.ui.android.library;
 
-import java.io.File;
-
 import android.annotation.TargetApi;
 import android.app.Application;
 import android.os.Build;
 
+import org.geometerplus.android.fbreader.config.ConfigShadow;
+import org.geometerplus.fbreader.Paths;
 import org.geometerplus.zlibrary.ui.android.image.ZLAndroidImageManager;
 
-import org.geometerplus.fbreader.Paths;
-
-import org.geometerplus.android.fbreader.config.ConfigShadow;
+import java.io.File;
 
 public abstract class ZLAndroidApplication extends Application {
-	private ZLAndroidLibrary myLibrary;
+	private org.geometerplus.zlibrary.ui.android.library.ZLAndroidLibrary myLibrary;
 	private ConfigShadow myConfig;
 
 	@TargetApi(Build.VERSION_CODES.FROYO)
@@ -60,7 +58,7 @@ public abstract class ZLAndroidApplication extends Application {
 
 		myConfig = new ConfigShadow(this);
 		new ZLAndroidImageManager();
-		myLibrary = new ZLAndroidLibrary(this);
+		myLibrary = new org.geometerplus.zlibrary.ui.android.library.ZLAndroidLibrary(this);
 
 		myConfig.runOnConnect(new Runnable() {
 			public void run() {
@@ -78,7 +76,7 @@ public abstract class ZLAndroidApplication extends Application {
 		});
 	}
 
-	public final ZLAndroidLibrary library() {
+	public final org.geometerplus.zlibrary.ui.android.library.ZLAndroidLibrary library() {
 		return myLibrary;
 	}
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\github\FBReaderJ\app\libs\pdfparse.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="a73e32b031244de43af228ee69a3a1c28011c62c">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\pdfparse-7af7997612f94ccc62a52649f41899a28a11ab75.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\libs\LingvoIntegration_2.5.2.12.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1f7b7852ec6e7567e6096d8ac7c14908c3047500">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\LingvoIntegration_2.5.2.12-27d6576b92d58e19299a76490028d3adab76a55b.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.github.tonytangandroid\android-filechooser\dedf2e2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="d649fbca32ea70ab2fe612d6880c5c54c9c05485">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-d3807811051e1e331539f6d19e745a255e1898c4.jar" />
+    </item>
+    <item
+        jar="D:\w_android_studio_sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-4a82cb8e4e948c58ec1845c7ea2c152085ef6fa5.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\libs\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1-8b34194bd3247e9a1f19d2449de3ac7bc58cc142.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.github.tonytangandroid\ambilwarna\923b82b\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="5005473a883053ac7acb0d0ec1fa5bf2b69267f6">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-cb1abfc8c09c130e92581ebfe8f59dd2b2352146.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.github.tonytangandroid\super-toasts\b5643db\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3b13c90b11671aaa1ce06c9c635e86e1e2b386b4">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-fa091147bb7e75d3a7b5f225085c606768f7a129.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="50fd8c7c5556b3516f569f71ed189d61441d59cf">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-c3b54a940713fade82264c95fb07ebfc78463955.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="fcf32027f88ac0be1b54b16167a30bde06ab6cd1">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-4e339767d5b9ecca51ea3f8f71a4b7fb6dd5737d.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\libs\open-dictionary-api-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="c4817fa5e7ad1f4fc0fcf4d2d81025356ea1b1b3">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\open-dictionary-api-1.2.1-cff1b6a1684401417922aa7ff696608566e54371.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-c8ed97caac982632fd98b55fe03326a6ea6b2c1d.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.github.tonytangandroid\drag-sort-listview\f02149f\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="9c3bb434f2f22d23a0fa18d97707695886131475">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\classes-cd4be58cb9e343f011a2504bd063669656acfa55.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\libs\nanohttpd-2.0.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="c3d42a4f9a2203a2f31cbe5a303620db1593b952">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\nanohttpd-2.0.5-f64eed8a76033da7da211b231de4c4ab29b99345.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\libs\httpmime-4.2.5.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="36f95a7708086636806d7ed3e64f010855742bd2">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\httpmime-4.2.5-42115539be5a14ecf48341bc5fbffc2c7b34a6ba.jar" />
+    </item>
+    <item
+        jar="D:\github\FBReaderJ\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\github\FBReaderJ\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-ec86e7b7be2e2f5ebbf20349aa7c199ee2794e05.jar" />
+    </item>
+
+</items>
