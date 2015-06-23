@@ -1,15 +1,17 @@
 # Gradle files
-.gradle/
+.gradle
+.idea
 build/
+gradle/
+.gradle/
 /*/build/
 /*/bin/
 /*/gen/
 /*/.settings/
 local.properties
-# User-specific stuff:
 .idea/dictionaries
 *.iml
-# Gradle:
+
 .idea/*
 proguard/
 *.apk
