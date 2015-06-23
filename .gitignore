@@ -1,8 +1,21 @@
-default.properties
-build.properties
+# Gradle files
+.gradle/
+build/
+/*/build/
+/*/bin/
+/*/gen/
+/*/.settings/
 local.properties
-bin/
-gen/
+# User-specific stuff:
+.idea/dictionaries
+*.iml
+# Gradle:
+.idea/*
+proguard/
+*.apk
+*.ap_
+*.dex
+*.class
 scripts/resources/*.diff
 obj/
 epubs/
